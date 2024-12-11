@@ -1,0 +1,32 @@
+export type GitUserResponse = {
+    login: string,
+    avatar_url: string
+    html_url: string
+    repos_url: string
+    starred_url: string
+    subscriptions_url: string
+    events_url: string
+    site_admin: boolean
+    name: string
+    company: string
+    blog: string
+    location: string
+    email: string
+    hireable: boolean
+    bio: string
+    public_repos: number
+    public_gists: number
+    followers: number
+    following: number
+    created_at: string
+    updated_at: string
+    type: string
+    url: string
+    id: number
+    node_id: string
+    gravatar_id: string
+    followers_url: string
+    following_url: string
+    gists_url: string
+    organizations_url: string    
+}
